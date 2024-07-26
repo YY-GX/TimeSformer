@@ -6,7 +6,7 @@ TRAIN:
   CHECKPOINT_PERIOD: 5
   AUTO_RESUME: True
 DATA:
-  PATH_TO_Franka_DIR: /mnt/arc/yue/datasets/franka_kitchen
+  PATH_TO_Franka_DIR: /mnt/arc/yygx/datasets/franka_kitchen
   PATH_TO_Human_DIR: /path/to/franka/  # TODO
   NUM_FRAMES: 8
   SAMPLING_RATE: 32
