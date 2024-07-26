@@ -281,6 +281,8 @@ def launch_job(cfg, init_method, func, daemon=False):
         daemon (bool): The spawned processes’ daemon flag. If set to True,
             daemonic processes will be created
     """
+    import ssl
+    ssl._create_default_https_context = ssl._create_unverified_context
     if cfg.NUM_GPUS > 1:
         torch.multiprocessing.spawn(
             mpu.run,
