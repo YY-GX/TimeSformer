@@ -117,8 +117,8 @@ class Franka_Human(torch.utils.data.Dataset):
         # load datasets from different sources
         logger.info("Constructing FrankaKitchen Dataset {}...".format(self.mode))
         self._load_dataset(self.cfg.DATA.PATH_TO_Franka_DIR)
-        logger.info("Constructing Human Dataset {}...".format(self.mode))
-        self._load_dataset(self.cfg.DATA.PATH_TO_Human_DIR)
+        # logger.info("Constructing Human Dataset {}...".format(self.mode))
+        # self._load_dataset(self.cfg.DATA.PATH_TO_Human_DIR)
 
         # combine data points & labels from several sources
 
