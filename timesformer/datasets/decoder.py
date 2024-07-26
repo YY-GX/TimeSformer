@@ -244,6 +244,7 @@ def pyav_decode(
     fps = float(container.streams.video[0].average_rate)
 
     orig_duration = duration
+    # yy: tb is the time duration for each interval between 2 frames
     tb = float(container.streams.video[0].time_base)
     frames_length = container.streams.video[0].frames
     duration = container.streams.video[0].duration
@@ -259,7 +260,7 @@ def pyav_decode(
         decode_all_video = False
         start_idx, end_idx = get_start_end_idx(
             frames_length,
-            sampling_rate * num_frames / target_fps * fps,
+            sampling_rate * num_frames / target_fps * fps,  # yy: where sampling_rate play a role | param_name: clip_size
             clip_idx,
             num_clips,
         )
@@ -300,6 +301,7 @@ def pyav_decode(
     return frames, fps, decode_all_video
 
 
+# yy: decode the video and sample one clip based on the temporal_sample_rate from the video
 def decode(
     container,
     sampling_rate,
@@ -342,6 +344,7 @@ def decode(
     """
     # Currently support two decoders: 1) PyAV, and 2) TorchVision.
     assert clip_idx >= -1, "Not valied clip_idx {}".format(clip_idx)
+    # yy: pyav is the default one
     try:
         if backend == "pyav":
             frames, fps, decode_all_video = pyav_decode(
