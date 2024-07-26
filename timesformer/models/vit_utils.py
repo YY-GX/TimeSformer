@@ -11,6 +11,7 @@ import torch.nn.functional as F
 from timesformer.models.helpers import load_pretrained
 from .build import MODEL_REGISTRY
 from itertools import repeat
+# yy: changed by me
 # from torch._six import container_abcs
 import collections.abc as container_abcs
 
