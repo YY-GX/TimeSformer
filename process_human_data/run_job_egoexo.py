@@ -29,8 +29,8 @@ def create_csv(files_labels, output_csv):
             f.write(f"{file},{label}\n")
 
 if __name__ == "__main__":
-    annotation_file = 'annotations.json'  # Modify this path to your actual annotation file
-    output_dir = './egoexo_v2'
+    annotation_file = '/mnt/arc/yygx/pkgs_baselines/TimeSformer/process_human_data/stsb-roberta-large/match_thre0.65.json'  # Modify this path to your actual annotation file
+    output_dir = '/mnt/arc/yygx/datasets/egoexo_v2_clips'
     os.makedirs(output_dir, exist_ok=True)
 
     with open(annotation_file, 'r') as f:
