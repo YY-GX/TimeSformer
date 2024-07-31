@@ -13,7 +13,7 @@ def process_clip(label, clip, output_dir):
     start_sec = clip['start_sec']
     end_sec = start_sec + 2  # Each clip lasts 2 seconds
     # video_filename = os.path.basename(video_path)
-    video_filename = video_path.replace("/", "_").replace(".", "_")
+    video_filename = video_path.replace("/", "_")
     clip_filename = f"{label}_{start_sec:.2f}_{video_filename}"
     output_path = os.path.join(output_dir, clip_filename)
 
