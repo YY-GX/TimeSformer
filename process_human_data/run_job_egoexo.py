@@ -37,6 +37,8 @@ if __name__ == "__main__":
     all_clips = []
     for label, data in annotations.items():
         for clip in data['matches']:
+            if "None.mp4" in clip["video_path"]:
+                continue
             all_clips.append((int(label), clip))
 
     random.shuffle(all_clips)
