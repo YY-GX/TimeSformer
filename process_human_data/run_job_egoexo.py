@@ -33,7 +33,7 @@ def create_csv(files_labels, output_csv):
             f.write(f"{file},{label}\n")
 
 if __name__ == "__main__":
-    annotation_file = '/mnt/arc/yygx/pkgs_baselines/TimeSformer/process_human_data/stsb-roberta-large/match_thre0.65.json'  # Modify this path to your actual annotation file
+    annotation_file = '/mnt/arc/yygx/pkgs_baselines/TimeSformer/process_human_data/stsb-roberta-large/match_thre0.6.json'  # Modify this path to your actual annotation file
     output_dir = '/mnt/arc/yygx/datasets/egoexo_v2_clips'
     os.makedirs(output_dir, exist_ok=True)
 
@@ -49,8 +49,8 @@ if __name__ == "__main__":
 
     random.shuffle(all_clips)
     num_clips = len(all_clips)
-    train_split = int(0.8 * num_clips)
-    val_split = int(0.1 * num_clips)
+    train_split = int(0.6 * num_clips)
+    val_split = int(0.2 * num_clips)
 
     train_clips = all_clips[:train_split]
     val_clips = all_clips[train_split:train_split + val_split]
@@ -86,8 +86,8 @@ if __name__ == "__main__":
         pbar.update(len(done))
     pbar.close()
 
-    create_csv(train_results, 'train.csv')
-    create_csv(val_results, 'val.csv')
-    create_csv(test_results, 'test.csv')
+    create_csv(train_results, os.path.join(output_dir, 'train.csv'))
+    create_csv(val_results, os.path.join(output_dir, 'val.csv'))
+    create_csv(test_results, os.path.join(output_dir, 'test.csv'))
 
     ray.shutdown()
