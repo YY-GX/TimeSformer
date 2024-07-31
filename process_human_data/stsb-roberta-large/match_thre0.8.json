@@ -1,0 +1,695 @@
+{
+    "0": {
+        "narr": "Turn the oven knob that activates the bottom burner.",
+        "id": 0,
+        "matches": []
+    },
+    "1": {
+        "narr": "Turn the oven knob that activates the top burner.",
+        "id": 1,
+        "matches": []
+    },
+    "2": {
+        "narr": "Turn on the light switch.",
+        "id": 2,
+        "matches": [
+            {
+                "root_dir": "takes/georgiatech_cooking_06_01_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_06_01_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 422.57461,
+                "end_sec": -2,
+                "narr": "C turns on the light switch with his left hand.",
+                "confidence": 0.8143213391304016
+            }
+        ]
+    },
+    "3": {
+        "narr": "Open the slide cabinet.",
+        "id": 3,
+        "matches": []
+    },
+    "4": {
+        "narr": "Open the left hinge cabinet.",
+        "id": 4,
+        "matches": [
+            {
+                "root_dir": "takes/indiana_cooking_03_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/indiana_cooking_03_2/frame_aligned_videos/downscaled/448/cam02.mp4",
+                "start_sec": 58.1,
+                "end_sec": -2,
+                "narr": "C opens the top cabinet door with his left hand.",
+                "confidence": 0.8001525402069092
+            },
+            {
+                "root_dir": "takes/upenn_0712_Cooking_4_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0712_Cooking_4_3/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 33.93017,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_10_01_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_10_01_2/frame_aligned_videos/downscaled/448/cam04.mp4",
+                "start_sec": 189.42664,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_10_01_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_10_01_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 405.95975,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_10_01_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_10_01_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 423.86073,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_10_01_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_10_01_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 957.85579,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_10_01_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_10_01_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 1320.18802,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_10_02_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_10_02_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 1360.85846,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/upenn_0714_Cooking_1_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0714_Cooking_1_3/frame_aligned_videos/downscaled/448/gp03.mp4",
+                "start_sec": 31.89646,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/indiana_cooking_04_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/indiana_cooking_04_2/frame_aligned_videos/downscaled/448/cam04.mp4",
+                "start_sec": 35.55998,
+                "end_sec": -2,
+                "narr": "C opens a cabinet with hi left hand.",
+                "confidence": 0.8184537887573242
+            },
+            {
+                "root_dir": "takes/iiith_cooking_131_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_131_2/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 100.81352,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/iiith_cooking_131_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_131_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 170.41249,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/iiith_cooking_131_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_131_2/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 191.05471,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/iiith_cooking_131_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_131_2/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 302.52303,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/iiith_cooking_131_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_131_2/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 374.82307,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_032_4",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_032_4/frame_aligned_videos/downscaled/448/cam04.mp4",
+                "start_sec": 1.20026,
+                "end_sec": -2,
+                "narr": "C opens a cabinet door with his left hand.",
+                "confidence": 0.803073525428772
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_032_4",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_032_4/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 11.11685,
+                "end_sec": -2,
+                "narr": "C opens a cabinet door with his left hand.",
+                "confidence": 0.803073525428772
+            },
+            {
+                "root_dir": "takes/sfu_cooking032_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/sfu_cooking032_3/frame_aligned_videos/downscaled/448/cam04.mp4",
+                "start_sec": 192.40199,
+                "end_sec": -2,
+                "narr": "C opens the wall cabinet with his left hand.",
+                "confidence": 0.8061884641647339
+            },
+            {
+                "root_dir": "takes/sfu_cooking026_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/sfu_cooking026_2/frame_aligned_videos/downscaled/448/cam02.mp4",
+                "start_sec": 32.32926,
+                "end_sec": -2,
+                "narr": "C opens a wall cabinet with his left hand.",
+                "confidence": 0.8025071620941162
+            },
+            {
+                "root_dir": "takes/upenn_0712_Cooking_1_4",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0712_Cooking_1_4/frame_aligned_videos/downscaled/448/gp03.mp4",
+                "start_sec": 34.74048,
+                "end_sec": -2,
+                "narr": "C opens a cabinet door with his left hand.",
+                "confidence": 0.803073525428772
+            },
+            {
+                "root_dir": "takes/upenn_0712_Cooking_1_4",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0712_Cooking_1_4/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 173.08428,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/iiith_cooking_130_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_130_2/frame_aligned_videos/downscaled/448/cam04.mp4",
+                "start_sec": 0.64695,
+                "end_sec": -2,
+                "narr": "C opens a cabinet door with his left hand.",
+                "confidence": 0.803073525428772
+            },
+            {
+                "root_dir": "takes/iiith_cooking_130_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_130_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 35.84411,
+                "end_sec": -2,
+                "narr": "C opens a cabinet door with his left hand.",
+                "confidence": 0.803073525428772
+            },
+            {
+                "root_dir": "takes/iiith_cooking_130_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_130_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 144.77853,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/iiith_cooking_130_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_130_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 156.92,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/iiith_cooking_130_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_130_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 280.45384,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/sfu_cooking_002_1",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/sfu_cooking_002_1/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 365.35579,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_10_01_6",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_10_01_6/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 306.93471,
+                "end_sec": -2,
+                "narr": "C opens a cabinet door with his left hand.",
+                "confidence": 0.803073525428772
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_10_01_6",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_10_01_6/frame_aligned_videos/downscaled/448/cam05.mp4",
+                "start_sec": 410.87889,
+                "end_sec": -2,
+                "narr": "C opens a cabinet door with his left hand.",
+                "confidence": 0.803073525428772
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_10_01_6",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_10_01_6/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 913.60076,
+                "end_sec": -2,
+                "narr": "C open the cabinet door with his left hand.",
+                "confidence": 0.8175023794174194
+            },
+            {
+                "root_dir": "takes/sfu_cooking023_8",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/sfu_cooking023_8/frame_aligned_videos/downscaled/448/None.mp4",
+                "start_sec": 68.90817,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/sfu_cooking_006_1",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/sfu_cooking_006_1/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 353.76555,
+                "end_sec": -2,
+                "narr": "C open the cabinet door with his left hand.",
+                "confidence": 0.8175023794174194
+            },
+            {
+                "root_dir": "takes/iiith_cooking_123_6",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_123_6/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 98.56273,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/upenn_0714_Cooking_7_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0714_Cooking_7_3/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 22.786,
+                "end_sec": -2,
+                "narr": "C opens the door of a wall cabinet with his left hand.",
+                "confidence": 0.8005565404891968
+            },
+            {
+                "root_dir": "takes/upenn_0714_Cooking_7_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0714_Cooking_7_3/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 151.3436,
+                "end_sec": -2,
+                "narr": "C opens the door of a wall cabinet with his left hand.",
+                "confidence": 0.8005565404891968
+            },
+            {
+                "root_dir": "takes/upenn_0714_Cooking_7_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0714_Cooking_7_3/frame_aligned_videos/downscaled/448/gp04.mp4",
+                "start_sec": 154.1738,
+                "end_sec": -2,
+                "narr": "C opens the door of a wall cabinet with his left hand.",
+                "confidence": 0.8005565404891968
+            },
+            {
+                "root_dir": "takes/upenn_0714_Cooking_7_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0714_Cooking_7_3/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 172.32064,
+                "end_sec": -2,
+                "narr": "C opens the door of a wall cabinet with his left hand.",
+                "confidence": 0.8005565404891968
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_023_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_023_2/frame_aligned_videos/downscaled/448/cam05.mp4",
+                "start_sec": 2.54424,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/sfu_cooking023_6",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/sfu_cooking023_6/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 79.91167,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/iiith_cooking_130_4",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_130_4/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 38.71173,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/iiith_cooking_130_4",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_130_4/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 292.92977,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/upenn_0714_Cooking_6_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0714_Cooking_6_2/frame_aligned_videos/downscaled/448/gp04.mp4",
+                "start_sec": 913.46039,
+                "end_sec": -2,
+                "narr": "C opens the door of the wall cabinet with his left hand.",
+                "confidence": 0.8014883995056152
+            },
+            {
+                "root_dir": "takes/upenn_0702_Cooking_2_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0702_Cooking_2_2/frame_aligned_videos/downscaled/448/gp04.mp4",
+                "start_sec": 659.96996,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/upenn_0712_Cooking_5_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0712_Cooking_5_3/frame_aligned_videos/downscaled/448/gp04.mp4",
+                "start_sec": 42.26039,
+                "end_sec": -2,
+                "narr": "C opens the top cabinet door with his left hand.",
+                "confidence": 0.8001525402069092
+            },
+            {
+                "root_dir": "takes/upenn_0712_Cooking_5_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0712_Cooking_5_3/frame_aligned_videos/downscaled/448/gp04.mp4",
+                "start_sec": 44.72471,
+                "end_sec": -2,
+                "narr": "C opens the top cabinet door with his left hand.",
+                "confidence": 0.8001525402069092
+            },
+            {
+                "root_dir": "takes/iiith_cooking_125_4",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_125_4/frame_aligned_videos/downscaled/448/cam02.mp4",
+                "start_sec": 25.88511,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/iiith_cooking_125_4",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_125_4/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 56.32974,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_1_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_1_2/frame_aligned_videos/downscaled/448/gp03.mp4",
+                "start_sec": 262.13513,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_1_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_1_2/frame_aligned_videos/downscaled/448/gp03.mp4",
+                "start_sec": 264.425,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_6_5",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_6_5/frame_aligned_videos/downscaled/448/gp04.mp4",
+                "start_sec": 30.42152,
+                "end_sec": -2,
+                "narr": "C opens a cabinet door with his left hand.",
+                "confidence": 0.803073525428772
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_6_5",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_6_5/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 41.58374,
+                "end_sec": -2,
+                "narr": "C opens a cabinet door with his left hand.",
+                "confidence": 0.803073525428772
+            },
+            {
+                "root_dir": "takes/iiith_cooking_58_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_58_2/frame_aligned_videos/downscaled/448/cam04.mp4",
+                "start_sec": 28.7914,
+                "end_sec": -2,
+                "narr": "C opens a cabinet door with his left hand.",
+                "confidence": 0.803073525428772
+            },
+            {
+                "root_dir": "takes/iiith_cooking_58_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_58_2/frame_aligned_videos/downscaled/448/cam02.mp4",
+                "start_sec": 40.75346,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/sfu_cooking028_6",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/sfu_cooking028_6/frame_aligned_videos/downscaled/448/cam04.mp4",
+                "start_sec": 93.66604,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_010_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_010_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 16.15959,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_010_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_010_2/frame_aligned_videos/downscaled/448/cam05.mp4",
+                "start_sec": 247.72198,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_010_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_010_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 273.33829,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_010_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_010_2/frame_aligned_videos/downscaled/448/cam02.mp4",
+                "start_sec": 393.9381,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_3_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_3_2/frame_aligned_videos/downscaled/448/gp03.mp4",
+                "start_sec": 243.61821,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_3_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_3_2/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 662.47689,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_3_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_3_2/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 800.36588,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_3_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_3_2/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 811.007,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_011_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_011_2/frame_aligned_videos/downscaled/448/cam02.mp4",
+                "start_sec": 103.50377,
+                "end_sec": -2,
+                "narr": "C opens a wall cabinet with his left hand.",
+                "confidence": 0.8025071620941162
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_011_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_011_2/frame_aligned_videos/downscaled/448/cam02.mp4",
+                "start_sec": 924.65188,
+                "end_sec": -2,
+                "narr": "C opens the wall cabinet with his left hand.",
+                "confidence": 0.8061884641647339
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_011_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_011_2/frame_aligned_videos/downscaled/448/cam02.mp4",
+                "start_sec": 1110.804,
+                "end_sec": -2,
+                "narr": "C opens the wall cabinet with his left hand.",
+                "confidence": 0.8061884641647339
+            },
+            {
+                "root_dir": "takes/iiith_cooking_126_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_126_3/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 46.38109,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_13_01_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_13_01_2/frame_aligned_videos/downscaled/448/cam05.mp4",
+                "start_sec": 31.10761,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_13_01_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_13_01_2/frame_aligned_videos/downscaled/448/cam05.mp4",
+                "start_sec": 42.09353,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_13_01_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_13_01_2/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 1319.01595,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/georgiatech_cooking_13_01_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/georgiatech_cooking_13_01_2/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 2394.09887,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_3_5",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_3_5/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 140.72463,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_3_5",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_3_5/frame_aligned_videos/downscaled/448/gp03.mp4",
+                "start_sec": 150.46997,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_6_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_6_2/frame_aligned_videos/downscaled/448/gp04.mp4",
+                "start_sec": 16.60534,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_6_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_6_2/frame_aligned_videos/downscaled/448/gp04.mp4",
+                "start_sec": 19.26888,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand.",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_6_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_6_2/frame_aligned_videos/downscaled/448/gp01.mp4",
+                "start_sec": 631.89041,
+                "end_sec": -2,
+                "narr": "C opens the cabinet door with his left hand. ",
+                "confidence": 0.8086801767349243
+            },
+            {
+                "root_dir": "takes/iiith_cooking_60_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_60_2/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 25.05791,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/iiith_cooking_60_2",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_60_2/frame_aligned_videos/downscaled/448/cam03.mp4",
+                "start_sec": 38.22996,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/sfu_cooking_007_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/sfu_cooking_007_3/frame_aligned_videos/downscaled/448/cam02.mp4",
+                "start_sec": 182.63126,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand. ",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/minnesota_cooking_010_4",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/minnesota_cooking_010_4/frame_aligned_videos/downscaled/448/cam02.mp4",
+                "start_sec": 7.69179,
+                "end_sec": -2,
+                "narr": "C opens the door of the wall cabinet with his left hand.",
+                "confidence": 0.8014883995056152
+            },
+            {
+                "root_dir": "takes/iiith_cooking_125_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/iiith_cooking_125_3/frame_aligned_videos/downscaled/448/cam01.mp4",
+                "start_sec": 91.73361,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            },
+            {
+                "root_dir": "takes/upenn_0711_Cooking_6_3",
+                "video_path": "/mnt/mir/datasets/egoexo/v2/takes/upenn_0711_Cooking_6_3/frame_aligned_videos/downscaled/448/gp03.mp4",
+                "start_sec": 459.77903,
+                "end_sec": -2,
+                "narr": "C opens the cabinet with his left hand.",
+                "confidence": 0.8011835217475891
+            }
+        ]
+    },
+    "5": {
+        "narr": "Open the microwave door.",
+        "id": 5,
+        "matches": []
+    },
+    "6": {
+        "narr": "Move the kettle to the top left burner.",
+        "id": 6,
+        "matches": []
+    }
+}

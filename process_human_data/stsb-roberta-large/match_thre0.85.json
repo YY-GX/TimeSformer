@@ -1,0 +1,37 @@
+{
+    "0": {
+        "narr": "Turn the oven knob that activates the bottom burner.",
+        "id": 0,
+        "matches": []
+    },
+    "1": {
+        "narr": "Turn the oven knob that activates the top burner.",
+        "id": 1,
+        "matches": []
+    },
+    "2": {
+        "narr": "Turn on the light switch.",
+        "id": 2,
+        "matches": []
+    },
+    "3": {
+        "narr": "Open the slide cabinet.",
+        "id": 3,
+        "matches": []
+    },
+    "4": {
+        "narr": "Open the left hinge cabinet.",
+        "id": 4,
+        "matches": []
+    },
+    "5": {
+        "narr": "Open the microwave door.",
+        "id": 5,
+        "matches": []
+    },
+    "6": {
+        "narr": "Move the kettle to the top left burner.",
+        "id": 6,
+        "matches": []
+    }
+}
