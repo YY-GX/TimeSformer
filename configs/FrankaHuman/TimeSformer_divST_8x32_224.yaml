@@ -7,7 +7,7 @@ TRAIN:
   AUTO_RESUME: True
 DATA:
   PATH_TO_Franka_DIR: /mnt/arc/yygx/datasets/franka_kitchen
-  PATH_TO_Human_DIR: /path/to/franka/  # TODO
+  PATH_TO_Human_DIR: /mnt/arc/yygx/datasets/egoexo_v2_clips
   NUM_FRAMES: 8
   SAMPLING_RATE: 32
   TRAIN_JITTER_SCALES: [256, 320]

@@ -1,0 +1,102 @@
+/home/yygx/anaconda3/envs/timesformer/bin/python /home/yygx/UNC_Research/pkgs_baselines/TimeSformer/process_human_data/stsb-roberta-large/calc_stats.py
+Stats for match_thre0.5.json:
+
+Label	Number of Unique Videos
+0	541
+1	583
+2	107
+3	290
+4	765
+5	319
+6	188
+
+----------------------------------------
+
+Stats for match_thre0.55.json:
+
+Label	Number of Unique Videos
+0	327
+1	438
+2	58
+3	144
+4	559
+5	194
+6	93
+
+----------------------------------------
+
+Stats for match_thre0.6.json:
+
+Label	Number of Unique Videos
+0	73
+1	245
+2	20
+3	57
+4	420
+5	27
+6	28
+
+----------------------------------------
+
+Stats for match_thre0.65.json:
+
+Label	Number of Unique Videos
+0	1
+1	56
+2	6
+3	13
+4	326
+5	3
+6	7
+
+----------------------------------------
+
+Stats for match_thre0.7.json:
+
+Label	Number of Unique Videos
+1	3
+2	1
+3	7
+4	197
+5	1
+6	2
+
+----------------------------------------
+
+Stats for match_thre0.75.json:
+
+Label	Number of Unique Videos
+2	1
+3	1
+4	127
+
+----------------------------------------
+
+Stats for match_thre0.8.json:
+
+Label	Number of Unique Videos
+2	1
+4	58
+
+----------------------------------------
+
+Stats for match_thre0.85.json:
+
+Label	Number of Unique Videos
+
+----------------------------------------
+
+Stats for match_thre0.9.json:
+
+Label	Number of Unique Videos
+
+----------------------------------------
+
+Stats for match_thre0.95.json:
+
+Label	Number of Unique Videos
+
+----------------------------------------
+
+
+Process finished with exit code 0
