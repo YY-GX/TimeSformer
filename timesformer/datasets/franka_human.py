@@ -71,7 +71,7 @@ class Frankahuman(torch.utils.data.Dataset):
         self._construct_loader()
 
 
-    def _load_dataset(self, dataset_path):
+    def _load_dataset(self, dataset_path, path_prefix):
         path_to_file = os.path.join(
             dataset_path, "{}.csv".format(self.mode)
         )
@@ -90,7 +90,7 @@ class Frankahuman(torch.utils.data.Dataset):
                 )
                 for idx in range(self._num_clips):
                     self._path_to_videos.append(
-                        os.path.join(self.cfg.DATA.PATH_PREFIX, path)
+                        os.path.join(path_prefix, path)
                     )
                     self._labels.append(int(label))
                     self._spatial_temporal_idx.append(idx)
@@ -116,9 +116,12 @@ class Frankahuman(torch.utils.data.Dataset):
         self._spatial_temporal_idx = []
         # load datasets from different sources
         logger.info("Constructing FrankaKitchen Dataset {}...".format(self.mode))
-        self._load_dataset(self.cfg.DATA.PATH_TO_Franka_DIR)
-        # logger.info("Constructing Human Dataset {}...".format(self.mode))
-        # self._load_dataset(self.cfg.DATA.PATH_TO_Human_DIR)
+        path_prefix = self.cfg.DATA.PATH_PREFIX_ROBOT
+        self._load_dataset(self.cfg.DATA.PATH_TO_Franka_DIR, path_prefix)
+
+        path_prefix = self.cfg.DATA.PATH_PREFIX_HUMAN
+        logger.info("Constructing Human Dataset {}...".format(self.mode))
+        self._load_dataset(self.cfg.DATA.PATH_TO_Human_DIR, path_prefix)
 
         # combine data points & labels from several sources
 

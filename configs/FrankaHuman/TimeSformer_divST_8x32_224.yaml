@@ -15,6 +15,8 @@ DATA:
   TEST_CROP_SIZE: 224
   INPUT_CHANNEL_NUM: [3]
   PATH_LABEL_SEPARATOR: ","
+  PATH_PREFIX_ROBOT: "/mnt/arc/yygx/datasets/franka_kitchen/"
+  PATH_PREFIX_HUMAN: "/mnt/arc/yygx/datasets/egoexo_v2_clips/"
 TIMESFORMER:
   ATTENTION_TYPE: 'divided_space_time'
 SOLVER:
