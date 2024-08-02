@@ -239,7 +239,8 @@ class Frankahuman(torch.utils.data.Dataset):
                 self.cfg.DATA.NUM_FRAMES,
                 temporal_sample_index,
                 self.cfg.TEST.NUM_ENSEMBLE_VIEWS,
-                video_meta=self._video_meta[index],
+                video_meta={},  # yy: I modify to this
+                # video_meta=self._video_meta[index],
                 target_fps=self.cfg.DATA.TARGET_FPS,
                 backend=self.cfg.DATA.DECODING_BACKEND,
                 max_spatial_scale=min_scale,
