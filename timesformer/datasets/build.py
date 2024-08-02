@@ -27,6 +27,10 @@ def build_dataset(dataset_name, cfg, split):
     # in configs may be in lowercase but the name of dataset class should always
     # start with an uppercase letter.
     # print(f">> dataset_name: {dataset_name}")
+    # # yy: register by myself
+    # DATASET_REGISTRY.register()
+
     name = dataset_name.capitalize()
     # print(f">> name: {name}")
+    print(f"DATASET_REGISTRY._obj_map: {DATASET_REGISTRY._obj_map}")
     return DATASET_REGISTRY.get(name)(cfg, split)
