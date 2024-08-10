@@ -110,6 +110,7 @@ def perform_test(test_loader, model, test_meter, cfg, writer=None):
             test_meter.update_stats(
                 preds.detach(), labels.detach(), video_idx.detach()
             )
+            # yy: where the info is logged
             test_meter.log_iter_stats(cur_iter)
 
         test_meter.iter_tic()
